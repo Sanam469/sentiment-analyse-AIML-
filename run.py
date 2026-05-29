@@ -19,7 +19,8 @@ def run_dashboard():
         process = subprocess.Popen([
             sys.executable, "-m", "streamlit", "run", "dashboard/app.py",
             "--server.port=7860",
-            "--server.address=0.0.0.0"
+            "--server.address=0.0.0.0",
+            "--server.enableXsrfProtection=false"
         ])
         process.wait()
         print("Dashboard stopped. Restarting in 2 seconds...")
