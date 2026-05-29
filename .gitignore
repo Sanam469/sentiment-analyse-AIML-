@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+model_output/
+model_output.zip
+model_output_fixed.zip
+*.zip
+scratch/
+notebooks/
+test_api.py
+.dockerignore

@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch
+pydantic
+streamlit
+plotly
+pandas
+requests
